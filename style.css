@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:wght@100;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+}
+.banner {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    background: linear-gradient(180deg, #00000060 0%, #31a8dd00 50%, #00000060 100%);
+    position: absolute;
+}
+.logo-div {
+    width: 510px;
+    height: 393px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 248px;
+    height: 214px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: Raleway, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    margin-bottom: 16px;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    line-height: 23.48px;
+    text-align: center;
+    color: #fff;
+}
+.btn {
+    display: flex;
+    width: 326px;
+    height: 57px;
+    margin-top: 31px;
+    align-items: center;
+    justify-content: center;
+    font-family: Raleway, sans-serif;
+    color: #31a8dd;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 18.78px;
+    letter-spacing: 21%;
+    border: 2px solid #31a8dd;
+}
+.container-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 792px;
+    height: 325px;
+    align-items: center;
+    justify-content: center;
+}
+.main h1 {
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    line-height: 37.57px;
+    letter-spacing: 19%;
+    font-weight: 700;
+    color: #33A8DB;
+}
+.main h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    color: #fff;
+}
+.passos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 535px;
+    height: 51px;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    margin-top: 10px;
+    background: #252525;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.40);
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.passos span {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    color: #33A8DB;
+}
+.container-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./src/image/woman-code.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.transform {
+    font-family: Raleway, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    margin-left: 200px;
+    color: #FFFFFF;
+    text-shadow: #33a8db 3px 2px;
+}
+.container-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+}
+.txt-four {
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    line-height: 37.57px;
+    letter-spacing: 19%;
+    font-weight: 700;
+    color: #33A8DB;
+    text-align: center;
+}
+.profissional {
+    width: 659px;
+    height: 429px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+.txt {
+    width: 792px;
+    margin-top: 60px;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 170px;
+    background-color: #000000;
+}
+.txt-footer {
+    margin-top: 20px;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
+    text-align: center;
+    color: #FFFFFF;
+}
+a {
+    color: #33A8DB;
+    text-decoration: none;
+}
